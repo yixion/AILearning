@@ -30,3 +30,11 @@ git  switch "branchName" 到達那個branch
 git merge -m "message" "branchName" 合併分支
 git branch -d "branchName" 刪除分支
 git switch -c "branchName" 可以直接switch to branch and create it
+
+7.push local repository to the cloud
+git push --all 可以push所有的分支
+
+8.back to local repository
+git fetch download the cloud change to the local computer
+git merge merge the change of branch to the local branch
+except above command you can just type git pull
