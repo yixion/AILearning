@@ -1,0 +1,5 @@
+1.新增description:https://gtribello.github.io/mathNET/assets/notebook-writing.html
+2.MarkDown語法大全:
+	https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book
+	https://blog.maxkit.com.tw/2020/02/markdown.html
+	https://hackmd.io/@yizhewang/r1nHgohWu

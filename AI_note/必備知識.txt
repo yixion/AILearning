@@ -1,0 +1,5 @@
+必備知識
+1.線性代數(Linear Algebra)
+2.微積分(Calculus)
+3.統計與機率(Statics and Probability)
+4.線性規劃(linear programming)

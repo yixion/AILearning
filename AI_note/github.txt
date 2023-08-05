@@ -1,0 +1,32 @@
+1.使anaconda連結到github:
+(1)https://hackmd.io/@skywalkerylh/SyzEQrN-5
+(2)https://albert-kuc.medium.com/set-project-environment-git-version-control-and-connect-to-github-from-terminal-prompt-cc51bb53bc1d'
+
+2.建立ssh key:
+輸入:ssh-keygen
+輸入:cat C:\Users\xxxx/.ssh/id_rsa.pub
+
+3.暫存
+git add "fileName" 將檔案放入暫存
+git diff 可以查看和之前檔案有什麼不同
+git restore --staged "fileName" 從暫存中刪掉，使文件回到workspace
+
+4.提交檔案到git
+git commit -m "message" 將檔案提交
+git commit -a -m 可以跳過暫存
+
+5.歷史紀錄操作
+git log 可以看歷史繳交
+git --log oneline 可以將歷史訊息濃縮成一個句子
+git commit -m "message" --amend 可以修改歷史句子
+git log -p 可以看到更多實際更改的細節(press q, then you can quit it.)
+git help log 你可以看到更多跟log相關的command
+git rebase -i --root 可以編輯歷史紀錄(:x back to the origin terminal
+
+6.建立新分支: 
+git branch "branchName" 建立branch
+git branch 確認我們有多少branch
+git  switch "branchName" 到達那個branch
+git merge -m "message" "branchName" 合併分支
+git branch -d "branchName" 刪除分支
+git switch -c "branchName" 可以直接switch to branch and create it
